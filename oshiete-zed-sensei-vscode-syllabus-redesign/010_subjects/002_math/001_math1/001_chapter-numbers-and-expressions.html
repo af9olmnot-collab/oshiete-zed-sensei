@@ -1,0 +1,1119 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#761722" />
+    <title>数学I 第1章 数と式の入口｜教えてゼド先生</title>
+    <link rel="stylesheet" href="../../../090_assets/css/base.css" />
+    <link rel="stylesheet" href="../../../090_assets/css/layout.css" />
+    <link rel="stylesheet" href="../../../090_assets/css/lesson.css" />
+    <link rel="stylesheet" href="../../../090_assets/css/components.css" />
+  </head>
+  <body>
+    <div class="site-frame">
+      <header class="topbar">
+        <a
+          class="brand"
+          href="../../../index.html"
+          aria-label="教えてゼド先生 ホーム"
+        >
+          <span class="brand-mark">Z</span>
+          <span
+            ><strong>教えてゼド先生</strong
+            ><small>Zed's Study Archive</small></span
+          >
+        </a>
+        <nav class="topnav" aria-label="主要メニュー">
+          <a href="../../../index.html">ホーム</a
+          ><a href="../../../001_admin-log/index.html">管理者日誌</a
+          ><a href="../../../002_mini-lessons/index.html">補講</a
+          ><a href="../../../010_subjects/index.html">教科</a
+          ><a href="../../../010_subjects/001_philosophy/index.html">哲学</a
+          ><a
+            href="../../../010_subjects/002_math/index.html"
+            aria-current="page"
+            >数学</a
+          >
+        </nav>
+      </header>
+
+      <div class="shell">
+        <aside class="sidebar">
+          <div class="sidebar-inner">
+            <p class="side-label">SUBJECTS / 教科</p>
+            <div class="side-list">
+              <a
+                class="side-link"
+                href="../../../010_subjects/001_philosophy/index.html"
+                ><span class="side-icon">Φ</span><span>哲学</span></a
+              ><a
+                class="side-link active"
+                href="../../../010_subjects/002_math/index.html"
+                ><span class="side-icon">∑</span><span>数学</span></a
+              ><a
+                class="side-link"
+                href="../../../010_subjects/003_japanese/index.html"
+                ><span class="side-icon">文</span><span>国語</span></a
+              ><a
+                class="side-link"
+                href="../../../010_subjects/004_science/index.html"
+                ><span class="side-icon">⚗</span><span>理科</span></a
+              ><a
+                class="side-link"
+                href="../../../010_subjects/005_social-studies/index.html"
+                ><span class="side-icon">史</span><span>社会</span></a
+              ><a class="side-link" href="../../../002_mini-lessons/index.html"
+                ><span class="side-icon">＋</span><span>補講</span></a
+              >
+            </div>
+          </div>
+        </aside>
+
+        <main class="main">
+          <div class="content">
+            <nav class="breadcrumb">
+              <a href="../../../index.html">ホーム</a
+              ><a href="../../index.html">教科</a
+              ><a href="../index.html">数学</a><a href="index.html">数学I</a
+              ><span>第1章　数と式の入口</span>
+            </nav>
+            <header class="chapter-header">
+              <p class="eyebrow">Mathematics I</p>
+              <h1>第1章　数と式の入口</h1>
+              <p class="lead">
+                文字式、同類項、展開、因数分解を、意味と途中式から確認します。
+              </p>
+              <div class="chapter-meta">
+                <span>全6講</span><span>数と式</span><span>基礎〜標準</span>
+              </div>
+            </header>
+            <section class="lesson-index" aria-labelledby="lesson-index-title">
+              <div class="section-title">
+                <h2 id="lesson-index-title">章内講義目次</h2>
+                <small>LESSONS</small>
+              </div>
+              <div class="lesson-card-grid">
+                <button
+                  class="lesson-card"
+                  type="button"
+                  data-lesson-target="001"
+                >
+                  <span class="lesson-no">1</span>
+                  <span
+                    ><strong>第1講　文字式と同類項</strong
+                    ><small>項・係数・定数項を見分ける</small
+                    ><span class="lesson-tags"
+                      ><span>基礎</span><span>目安：30分</span></span
+                    ></span
+                  >
+                </button>
+                <button
+                  class="lesson-card"
+                  type="button"
+                  data-lesson-target="002"
+                >
+                  <span class="lesson-no">2</span>
+                  <span
+                    ><strong>第2講　分配法則とマイナス</strong
+                    ><small>括弧の外を中へ配る</small
+                    ><span class="lesson-tags"
+                      ><span>基礎</span><span>目安：30分</span></span
+                    ></span
+                  >
+                </button>
+                <button
+                  class="lesson-card"
+                  type="button"
+                  data-lesson-target="003"
+                >
+                  <span class="lesson-no">3</span>
+                  <span
+                    ><strong>第3講　単項式を含む展開</strong
+                    ><small>係数と文字をまとめて扱う</small
+                    ><span class="lesson-tags"
+                      ><span>基礎</span><span>目安：30分</span></span
+                    ></span
+                  >
+                </button>
+                <button
+                  class="lesson-card"
+                  type="button"
+                  data-lesson-target="004"
+                >
+                  <span class="lesson-no">4</span>
+                  <span
+                    ><strong>第4講　二つの括弧の展開</strong
+                    ><small>すべての組み合わせを掛ける</small
+                    ><span class="lesson-tags"
+                      ><span>標準</span><span>目安：30分</span></span
+                    ></span
+                  >
+                </button>
+                <button
+                  class="lesson-card"
+                  type="button"
+                  data-lesson-target="005"
+                >
+                  <span class="lesson-no">5</span>
+                  <span
+                    ><strong>第5講　共通因数でくくる</strong
+                    ><small>共通している部品を探す</small
+                    ><span class="lesson-tags"
+                      ><span>標準</span><span>目安：30分</span></span
+                    ></span
+                  >
+                </button>
+                <button
+                  class="lesson-card"
+                  type="button"
+                  data-lesson-target="006"
+                >
+                  <span class="lesson-no">6</span>
+                  <span
+                    ><strong>第6講　因数分解の考え方</strong
+                    ><small>展開を逆向きに見る</small
+                    ><span class="lesson-tags"
+                      ><span>標準</span><span>目安：30分</span></span
+                    ></span
+                  >
+                </button>
+              </div>
+            </section>
+            <div class="switch-strip" aria-label="講義切り替え">
+              <button type="button" data-lesson-target="001">1</button
+              ><button type="button" data-lesson-target="002">2</button
+              ><button type="button" data-lesson-target="003">3</button
+              ><button type="button" data-lesson-target="004">4</button
+              ><button type="button" data-lesson-target="005">5</button
+              ><button type="button" data-lesson-target="006">6</button>
+            </div>
+            <section class="lesson-panels">
+              <article
+                class="lesson-panel active"
+                data-lesson-panel="001"
+                id="lesson-001"
+              >
+                <div class="paper">
+                  <header class="lesson-title">
+                    <p class="eyebrow">Lesson 1</p>
+                    <h2>第1講　文字式と同類項</h2>
+                    <p>
+                      数学Iの入口でまず身につけるべきことは、式をただ計算することではありません。
+                      式を「部品」に分け、何が同じ種類で、何が違う種類なのかを読む力です。
+                    </p>
+                  </header>
+
+                  <section class="lesson-section">
+                    <span class="section-kicker">Question</span>
+                    <h3>今日の問い</h3>
+
+                    <p>
+                      なぜ <b>2x + 3x</b> は <b>5x</b> にまとめられるのに、
+                      <b>2x + 3y</b> はまとめられないのでしょうか。
+                    </p>
+
+                    <div class="formula-box">
+                      2x + 3x = 5x<br />
+                      2x + 3y はそのまま
+                    </div>
+
+                    <p>
+                      この違いが分かると、文字式の整理、展開、因数分解、方程式のすべてが見えやすくなります。
+                      第1講の目標は、計算を速くすることではなく、まず<b>式を正しく読むこと</b>です。
+                    </p>
+                  </section>
+
+                  <section class="lesson-section">
+                    <span class="section-kicker">Goal</span>
+                    <h3>この講義の到達目標</h3>
+
+                    <ul class="objective-list">
+                      <li>式を「項」に分けられる。</li>
+                      <li>係数と定数項を見分けられる。</li>
+                      <li>同類項かどうかを判断できる。</li>
+                      <li>x と x<sup>2</sup> を別物として扱える。</li>
+                      <li>符号を項の一部として読める。</li>
+                      <li>同類項だけを正しくまとめられる。</li>
+                    </ul>
+                  </section>
+
+                  <section class="lesson-section">
+                    <span class="section-kicker">Definition</span>
+                    <h3>まず、式を部品に分ける</h3>
+
+                    <p>次の式を見てください。</p>
+
+                    <div class="formula-box">3x + 5 - 2x + 4</div>
+
+                    <p>この式は、次の4つの部品に分けて読むことができます。</p>
+
+                    <div class="explain-grid">
+                      <div class="mini-card">
+                        <strong>項</strong>
+                        <p>
+                          + や - で区切られた式の部品。<br />
+                          例：3x、5、-2x、4
+                        </p>
+                      </div>
+
+                      <div class="mini-card">
+                        <strong>係数</strong>
+                        <p>
+                          文字にかかっている数字。<br />
+                          例：3x の係数は 3。-2x の係数は -2。
+                        </p>
+                      </div>
+
+                      <div class="mini-card">
+                        <strong>定数項</strong>
+                        <p>
+                          文字を含まない数字だけの項。<br />
+                          例：5、4
+                        </p>
+                      </div>
+
+                      <div class="mini-card">
+                        <strong>同類項</strong>
+                        <p>
+                          文字の部分が完全に同じ項。<br />
+                          例：3x と -2x は同類項。
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+
+                  <section class="lesson-section">
+                    <span class="section-kicker">Rule</span>
+                    <h3>同類項とは何か</h3>
+
+                    <p>
+                      同類項とは、<b>文字の部分が完全に同じ項</b>のことです。
+                      ただ「同じ文字が入っている」だけでは足りません。
+                    </p>
+
+                    <div class="formula-box">ax + bx = (a + b)x</div>
+
+                    <div class="explain-grid">
+                      <div class="mini-card">
+                        <strong>まとめられる</strong>
+                        <p>
+                          2x + 3x = 5x<br />
+                          文字の部分がどちらも x だからです。
+                        </p>
+                      </div>
+
+                      <div class="mini-card">
+                        <strong>まとめられない</strong>
+                        <p>
+                          2x + 3y<br />
+                          x と y は違う文字なので、そのままです。
+                        </p>
+                      </div>
+
+                      <div class="mini-card">
+                        <strong>これも別物</strong>
+                        <p>
+                          x + x<sup>2</sup><br />
+                          x と x<sup>2</sup> は形が違うので、まとめません。
+                        </p>
+                      </div>
+
+                      <div class="mini-card">
+                        <strong>定数項どうし</strong>
+                        <p>
+                          5 + 4 = 9<br />
+                          数字だけの項どうしはまとめられます。
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+
+                  <section class="lesson-section">
+                    <span class="section-kicker">Why</span>
+                    <h3>なぜ同類項だけまとめられるのか</h3>
+
+                    <p>
+                      <b>2x</b> は「x が2個」、<b>3x</b> は「x
+                      が3個」という意味です。 だから、2x + 3x は「x
+                      が5個」と読めます。
+                    </p>
+
+                    <div class="formula-box">2x + 3x = 5x</div>
+
+                    <p>
+                      しかし、2x + 3y は「x が2個」と「y が3個」です。
+                      これは種類が違います。
+                      りんご2個と鉛筆3本を、ただ「5個」とまとめると何の数か分からなくなるのと同じです。
+                    </p>
+
+                    <div class="dialogue">
+                      <div class="dialogue-head">
+                        <strong>ゼド先生とミアの補講</strong>
+                        <small>MINI LESSON</small>
+                      </div>
+
+                      <div class="dialogue-body">
+                        <div class="line">
+                          <img
+                            class="avatar character-bust"
+                            src="../../../090_assets/images/mia/bust/mia-sd-expression-worried-v1.jpeg"
+                            alt="悩むミア"
+                          />
+                          <div class="speech">
+                            <span class="speech-name">ミア</span>
+                            <p>
+                              x と x<sup>2</sup> って、どっちも x
+                              が入っているから、まとめてもいいのかと思っていました……。
+                            </p>
+                          </div>
+                        </div>
+
+                        <div class="line zed">
+                          <div class="speech">
+                            <span class="speech-name">ゼド先生</span>
+                            <p>
+                              違う。見るべきなのは、同じ文字が入っているかではない。
+                              文字の形が完全に同じかどうかだ。x と x<sup>2</sup>
+                              は別物として扱え。
+                            </p>
+                          </div>
+                          <img
+                            class="avatar character-bust"
+                            src="../../../090_assets/images/zed/bust/zed-sd-expression-stern-v1.jpeg"
+                            alt="厳しいゼド先生"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <section class="lesson-section">
+                    <span class="section-kicker">Sign</span>
+                    <h3>符号は項にくっついている</h3>
+
+                    <p>
+                      文字式でかなり多いミスが、符号を項から切り離してしまうことです。
+                    </p>
+
+                    <div class="formula-box">5x + 8 - 2x + 7</div>
+
+                    <p>この式の項は、次の4つです。</p>
+
+                    <div class="explain-grid">
+                      <div class="mini-card">
+                        <strong>5x</strong>
+                        <p>正の項です。</p>
+                      </div>
+
+                      <div class="mini-card">
+                        <strong>8</strong>
+                        <p>正の定数項です。</p>
+                      </div>
+
+                      <div class="mini-card">
+                        <strong>-2x</strong>
+                        <p>負の項です。2x ではなく、-2x で一つの項です。</p>
+                      </div>
+
+                      <div class="mini-card">
+                        <strong>7</strong>
+                        <p>正の定数項です。</p>
+                      </div>
+                    </div>
+
+                    <p>
+                      つまり、式を整理するときは、<b
+                        >数字や文字だけでなく、前に付いている + や -
+                        も一緒に見る</b
+                      >必要があります。
+                    </p>
+                  </section>
+
+                  <section class="lesson-section">
+                    <span class="section-kicker">Example</span>
+                    <h3>例題1：同類項をまとめる</h3>
+
+                    <div class="example-box">
+                      <div class="example-head">例題 1</div>
+                      <div class="example-body">
+                        <b>3x + 5 - 2x + 4 を簡単にしなさい。</b>
+
+                        <div class="steps">
+                          <div class="step">
+                            <span>1</span>
+                            <code>3x + 5 - 2x + 4</code>
+                          </div>
+                          <div class="step">
+                            <span>2</span>
+                            <code>= 3x - 2x + 5 + 4</code>
+                          </div>
+                          <div class="step">
+                            <span>3</span>
+                            <code>= (3 - 2)x + 9</code>
+                          </div>
+                          <div class="step">
+                            <span>4</span>
+                            <code>= x + 9</code>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <p>
+                      2行目では、x
+                      の項どうし、数字だけの項どうしを近くに並べ替えています。
+                      このとき、<b>-2x のマイナスを必ず一緒に動かす</b
+                      >ことが大事です。
+                    </p>
+                  </section>
+
+                  <section class="lesson-section">
+                    <span class="section-kicker">Example</span>
+                    <h3>例題2：まとめてはいけない項を見分ける</h3>
+
+                    <div class="example-box">
+                      <div class="example-head">例題 2</div>
+                      <div class="example-body">
+                        <b>2x + 3y + 4x を簡単にしなさい。</b>
+
+                        <div class="steps">
+                          <div class="step">
+                            <span>1</span>
+                            <code>2x + 3y + 4x</code>
+                          </div>
+                          <div class="step">
+                            <span>2</span>
+                            <code>= 2x + 4x + 3y</code>
+                          </div>
+                          <div class="step">
+                            <span>3</span>
+                            <code>= 6x + 3y</code>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <p>
+                      3y は x の項ではないので、6x とまとめません。 答えは
+                      <b>6x + 3y</b> のままです。
+                    </p>
+                  </section>
+
+                  <section class="lesson-section">
+                    <span class="section-kicker">Mistakes</span>
+                    <h3>間違えやすい点</h3>
+
+                    <div class="warning-box">
+                      <div>
+                        <strong>x + x = x<sup>2</sup> としてしまう</strong>
+                        <p>
+                          これは間違いです。x を2個足しているので、正しくは
+                          <b>2x</b> です。 x<sup>2</sup> は x × x の意味です。
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="warning-box">
+                      <div>
+                        <strong>2x + 3y = 5xy としてしまう</strong>
+                        <p>
+                          これも間違いです。x と y
+                          は違う種類なので、足して一つにはできません。 そのまま
+                          <b>2x + 3y</b> と書きます。
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="warning-box">
+                      <div>
+                        <strong>5x - 2x を 7x にしてしまう</strong>
+                        <p>
+                          -2x のマイナスを見落としています。 5x - 2x
+                          は、係数で見ると 5 - 2 なので <b>3x</b> です。
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="warning-box">
+                      <div>
+                        <strong>定数項を忘れる</strong>
+                        <p>
+                          3x + 5 + 2x + 4 を 5x だけで終わらせてはいけません。 5
+                          + 4 もまとめて、答えは <b>5x + 9</b> です。
+                        </p>
+                      </div>
+                    </div>
+                  </section>
+
+                  <section class="lesson-section">
+                    <span class="section-kicker">Practice</span>
+                    <h3>練習問題</h3>
+
+                    <p>自分で解いてから、答えを開いて確認してください。</p>
+
+                    <div class="question-box">
+                      <strong>練習 1</strong>
+                      <p>4x + 3x を簡単にしなさい。</p>
+
+                      <details class="answer-toggle">
+                        <summary>答えを表示</summary>
+                        <div class="answer">
+                          <b>答え：7x</b>
+                          <div class="steps">
+                            <div class="step">
+                              <span>1</span>
+                              <code>4x + 3x = (4 + 3)x</code>
+                            </div>
+                            <div class="step">
+                              <span>2</span>
+                              <code>= 7x</code>
+                            </div>
+                          </div>
+                        </div>
+                      </details>
+                    </div>
+
+                    <div class="question-box">
+                      <strong>練習 2</strong>
+                      <p>5x + 8 - 2x + 7 を簡単にしなさい。</p>
+
+                      <details class="answer-toggle">
+                        <summary>答えを表示</summary>
+                        <div class="answer">
+                          <b>答え：3x + 15</b>
+                          <div class="steps">
+                            <div class="step">
+                              <span>1</span>
+                              <code>5x + 8 - 2x + 7</code>
+                            </div>
+                            <div class="step">
+                              <span>2</span>
+                              <code>= 5x - 2x + 8 + 7</code>
+                            </div>
+                            <div class="step">
+                              <span>3</span>
+                              <code>= (5 - 2)x + 15</code>
+                            </div>
+                            <div class="step">
+                              <span>4</span>
+                              <code>= 3x + 15</code>
+                            </div>
+                          </div>
+                        </div>
+                      </details>
+                    </div>
+
+                    <div class="question-box">
+                      <strong>練習 3</strong>
+                      <p>3a + 6 - a + 2 を簡単にしなさい。</p>
+
+                      <details class="answer-toggle">
+                        <summary>答えを表示</summary>
+                        <div class="answer">
+                          <b>答え：2a + 8</b>
+                          <div class="steps">
+                            <div class="step">
+                              <span>1</span>
+                              <code>3a + 6 - a + 2</code>
+                            </div>
+                            <div class="step">
+                              <span>2</span>
+                              <code>= 3a - a + 6 + 2</code>
+                            </div>
+                            <div class="step">
+                              <span>3</span>
+                              <code>= 2a + 8</code>
+                            </div>
+                          </div>
+                        </div>
+                      </details>
+                    </div>
+
+                    <div class="question-box">
+                      <strong>練習 4</strong>
+                      <p>x + x<sup>2</sup> + 2x を簡単にしなさい。</p>
+
+                      <details class="answer-toggle">
+                        <summary>答えを表示</summary>
+                        <div class="answer">
+                          <b>答え：x<sup>2</sup> + 3x</b>
+                          <div class="steps">
+                            <div class="step">
+                              <span>1</span>
+                              <code>x + x<sup>2</sup> + 2x</code>
+                            </div>
+                            <div class="step">
+                              <span>2</span>
+                              <code>= x<sup>2</sup> + x + 2x</code>
+                            </div>
+                            <div class="step">
+                              <span>3</span>
+                              <code>= x<sup>2</sup> + 3x</code>
+                            </div>
+                          </div>
+                          <p>x<sup>2</sup> と x は同類項ではありません。</p>
+                        </div>
+                      </details>
+                    </div>
+                  </section>
+
+                  <section class="lesson-section">
+                    <span class="section-kicker">Optional Check</span>
+                    <h3>確認問題</h3>
+
+                    <p>
+                      もっと練習したい人用の問題です。解く前に答えを開かないようにしてください。
+                    </p>
+
+                    <details class="confirm-toggle">
+                      <summary>確認問題を開く</summary>
+                      <div class="confirm-panel">
+                        <ol class="confirm-list">
+                          <li>2x + 6x を簡単にしなさい。</li>
+                          <li>9a - 4a を簡単にしなさい。</li>
+                          <li>3x + 2 + 4x + 5 を簡単にしなさい。</li>
+                          <li>8y - 3 + 2y + 9 を簡単にしなさい。</li>
+                          <li>x + x + x を簡単にしなさい。</li>
+                          <li>7a + 5 - 3a + 1 を簡単にしなさい。</li>
+                          <li>4x + 2y + 5x を簡単にしなさい。</li>
+                          <li>
+                            3x<sup>2</sup> + 2x + 5x<sup>2</sup>
+                            を簡単にしなさい。
+                          </li>
+                          <li>10m - 4 - 3m + 9 を簡単にしなさい。</li>
+                          <li>a + b + 2a + 3b を簡単にしなさい。</li>
+                        </ol>
+                      </div>
+                    </details>
+
+                    <details class="answer-toggle">
+                      <summary>確認問題の答えと途中式を表示</summary>
+                      <div class="answer">
+                        <div class="steps">
+                          <div class="step">
+                            <span>1</span>
+                            <code>
+                              2x + 6x<br />
+                              = (2 + 6)x<br />
+                              = 8x
+                            </code>
+                          </div>
+
+                          <div class="step">
+                            <span>2</span>
+                            <code>
+                              9a - 4a<br />
+                              = (9 - 4)a<br />
+                              = 5a
+                            </code>
+                          </div>
+
+                          <div class="step">
+                            <span>3</span>
+                            <code>
+                              3x + 2 + 4x + 5<br />
+                              = 3x + 4x + 2 + 5<br />
+                              = (3 + 4)x + 7<br />
+                              = 7x + 7
+                            </code>
+                          </div>
+
+                          <div class="step">
+                            <span>4</span>
+                            <code>
+                              8y - 3 + 2y + 9<br />
+                              = 8y + 2y - 3 + 9<br />
+                              = (8 + 2)y + 6<br />
+                              = 10y + 6
+                            </code>
+                          </div>
+
+                          <div class="step">
+                            <span>5</span>
+                            <code>
+                              x + x + x<br />
+                              = 1x + 1x + 1x<br />
+                              = (1 + 1 + 1)x<br />
+                              = 3x
+                            </code>
+                          </div>
+
+                          <div class="step">
+                            <span>6</span>
+                            <code>
+                              7a + 5 - 3a + 1<br />
+                              = 7a - 3a + 5 + 1<br />
+                              = (7 - 3)a + 6<br />
+                              = 4a + 6
+                            </code>
+                          </div>
+
+                          <div class="step">
+                            <span>7</span>
+                            <code>
+                              4x + 2y + 5x<br />
+                              = 4x + 5x + 2y<br />
+                              = (4 + 5)x + 2y<br />
+                              = 9x + 2y
+                            </code>
+                          </div>
+
+                          <div class="step">
+                            <span>8</span>
+                            <code>
+                              3x<sup>2</sup> + 2x + 5x<sup>2</sup><br />
+                              = 3x<sup>2</sup> + 5x<sup>2</sup> + 2x<br />
+                              = (3 + 5)x<sup>2</sup> + 2x<br />
+                              = 8x<sup>2</sup> + 2x
+                            </code>
+                          </div>
+
+                          <div class="step">
+                            <span>9</span>
+                            <code>
+                              10m - 4 - 3m + 9<br />
+                              = 10m - 3m - 4 + 9<br />
+                              = (10 - 3)m + 5<br />
+                              = 7m + 5
+                            </code>
+                          </div>
+
+                          <div class="step">
+                            <span>10</span>
+                            <code>
+                              a + b + 2a + 3b<br />
+                              = a + 2a + b + 3b<br />
+                              = (1 + 2)a + (1 + 3)b<br />
+                              = 3a + 4b
+                            </code>
+                          </div>
+                        </div>
+                      </div>
+                    </details>
+                  </section>
+
+                  <section class="lesson-section">
+                    <span class="section-kicker">Column</span>
+                    <h3>コラム：文字は「量の種類」を保つ札</h3>
+
+                    <article class="character-column">
+                      <div class="column-illust">
+                        <img
+                          class="character-bust"
+                          src="../../../090_assets/images/zed/bust/zed-sd-expression-stern-v1.jpeg"
+                          alt="解説するゼド先生"
+                        />
+                      </div>
+                      <div class="column-speech zed">
+                        <span class="speaker">ゼド先生の余談</span>
+                        <p>
+                          式の中の文字は、ただの飾りではない。 x や y
+                          は、その量が何を表しているかを保つための札だ。
+                          だから、x の項と y
+                          の項を勝手に混ぜると、何の量を扱っていたのか分からなくなる。
+                          数学で式を整理するとは、見た目を短くすることではなく、意味を壊さずに整えることだ。
+                        </p>
+                      </div>
+                    </article>
+                  </section>
+
+                  <section class="lesson-section">
+                    <span class="section-kicker">Summary</span>
+                    <h3>今日のまとめ</h3>
+
+                    <ul class="objective-list">
+                      <li>項とは、+ や - で区切られた式の部品である。</li>
+                      <li>係数とは、文字にかかっている数字である。</li>
+                      <li>定数項とは、文字を含まない数字だけの項である。</li>
+                      <li>同類項とは、文字の部分が完全に同じ項である。</li>
+                      <li>x と x<sup>2</sup> は同類項ではない。</li>
+                      <li>符号は項の一部として読む。</li>
+                      <li>
+                        式を整理するときは、意味を壊さず、同じ種類だけをまとめる。
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+              </article>
+
+              <article
+                class="lesson-panel"
+                data-lesson-panel="002"
+                id="lesson-002"
+              >
+                <div class="paper">
+                  <header class="lesson-title">
+                    <p class="eyebrow">Lesson 2</p>
+                    <h2>第2講　分配法則とマイナス</h2>
+                    <p>
+                      この講義では、式を見やすく整理するための基本の形を確認します。
+                    </p>
+                  </header>
+                  <section class="lesson-section">
+                    <span class="section-kicker">Formula</span>
+                    <h3>公式・定義</h3>
+                    <div class="formula-box">a(b+c)=ab+ac</div>
+                    <p>
+                      公式は、毎回同じ手順を繰り返さずに済むようにまとめた型です。どこに何を掛けているかを確認します。
+                    </p>
+                  </section>
+                  <section class="lesson-section">
+                    <span class="section-kicker">Practice</span>
+                    <h3>練習問題</h3>
+                    <div class="question-box">
+                      <strong>練習</strong>
+                      <p>−2(x−3) を展開しなさい。</p>
+                      <details class="answer-toggle">
+                        <summary>答えを表示</summary>
+                        <div class="answer"><b>答え：−2x+6</b></div>
+                      </details>
+                    </div>
+                  </section>
+                  <section class="lesson-section">
+                    <span class="section-kicker">Check</span>
+                    <h3>確認問題</h3>
+                    <details class="confirm-toggle">
+                      <summary>確認問題を開く</summary>
+                      <div class="confirm-panel">
+                        <ol class="confirm-list">
+                          <li>公式のどの部分を使ったか説明しなさい。</li>
+                          <li>符号が変わる場所を確認しなさい。</li>
+                          <li>途中式を一行残して解き直しなさい。</li>
+                        </ol>
+                      </div>
+                    </details>
+                  </section>
+                </div>
+              </article>
+
+              <article
+                class="lesson-panel"
+                data-lesson-panel="003"
+                id="lesson-003"
+              >
+                <div class="paper">
+                  <header class="lesson-title">
+                    <p class="eyebrow">Lesson 3</p>
+                    <h2>第3講　単項式を含む展開</h2>
+                    <p>
+                      この講義では、式を見やすく整理するための基本の形を確認します。
+                    </p>
+                  </header>
+                  <section class="lesson-section">
+                    <span class="section-kicker">Formula</span>
+                    <h3>公式・定義</h3>
+                    <div class="formula-box">k(a+b)=ka+kb</div>
+                    <p>
+                      公式は、毎回同じ手順を繰り返さずに済むようにまとめた型です。どこに何を掛けているかを確認します。
+                    </p>
+                  </section>
+                  <section class="lesson-section">
+                    <span class="section-kicker">Practice</span>
+                    <h3>練習問題</h3>
+                    <div class="question-box">
+                      <strong>練習</strong>
+                      <p>3x(x+4) を展開しなさい。</p>
+                      <details class="answer-toggle">
+                        <summary>答えを表示</summary>
+                        <div class="answer">
+                          <b>答え：3x<sup>2</sup>+12x</b>
+                        </div>
+                      </details>
+                    </div>
+                  </section>
+                  <section class="lesson-section">
+                    <span class="section-kicker">Check</span>
+                    <h3>確認問題</h3>
+                    <details class="confirm-toggle">
+                      <summary>確認問題を開く</summary>
+                      <div class="confirm-panel">
+                        <ol class="confirm-list">
+                          <li>公式のどの部分を使ったか説明しなさい。</li>
+                          <li>符号が変わる場所を確認しなさい。</li>
+                          <li>途中式を一行残して解き直しなさい。</li>
+                        </ol>
+                      </div>
+                    </details>
+                  </section>
+                </div>
+              </article>
+
+              <article
+                class="lesson-panel"
+                data-lesson-panel="004"
+                id="lesson-004"
+              >
+                <div class="paper">
+                  <header class="lesson-title">
+                    <p class="eyebrow">Lesson 4</p>
+                    <h2>第4講　二つの括弧の展開</h2>
+                    <p>
+                      この講義では、式を見やすく整理するための基本の形を確認します。
+                    </p>
+                  </header>
+                  <section class="lesson-section">
+                    <span class="section-kicker">Formula</span>
+                    <h3>公式・定義</h3>
+                    <div class="formula-box">(a+b)(c+d)=ac+ad+bc+bd</div>
+                    <p>
+                      公式は、毎回同じ手順を繰り返さずに済むようにまとめた型です。どこに何を掛けているかを確認します。
+                    </p>
+                  </section>
+                  <section class="lesson-section">
+                    <span class="section-kicker">Practice</span>
+                    <h3>練習問題</h3>
+                    <div class="question-box">
+                      <strong>練習</strong>
+                      <p>(x+2)(x+3) を展開しなさい。</p>
+                      <details class="answer-toggle">
+                        <summary>答えを表示</summary>
+                        <div class="answer">
+                          <b>答え：x<sup>2</sup>+5x+6</b>
+                        </div>
+                      </details>
+                    </div>
+                  </section>
+                  <section class="lesson-section">
+                    <span class="section-kicker">Check</span>
+                    <h3>確認問題</h3>
+                    <details class="confirm-toggle">
+                      <summary>確認問題を開く</summary>
+                      <div class="confirm-panel">
+                        <ol class="confirm-list">
+                          <li>公式のどの部分を使ったか説明しなさい。</li>
+                          <li>符号が変わる場所を確認しなさい。</li>
+                          <li>途中式を一行残して解き直しなさい。</li>
+                        </ol>
+                      </div>
+                    </details>
+                  </section>
+                </div>
+              </article>
+
+              <article
+                class="lesson-panel"
+                data-lesson-panel="005"
+                id="lesson-005"
+              >
+                <div class="paper">
+                  <header class="lesson-title">
+                    <p class="eyebrow">Lesson 5</p>
+                    <h2>第5講　共通因数でくくる</h2>
+                    <p>
+                      この講義では、式を見やすく整理するための基本の形を確認します。
+                    </p>
+                  </header>
+                  <section class="lesson-section">
+                    <span class="section-kicker">Formula</span>
+                    <h3>公式・定義</h3>
+                    <div class="formula-box">ab+ac=a(b+c)</div>
+                    <p>
+                      公式は、毎回同じ手順を繰り返さずに済むようにまとめた型です。どこに何を掛けているかを確認します。
+                    </p>
+                  </section>
+                  <section class="lesson-section">
+                    <span class="section-kicker">Practice</span>
+                    <h3>練習問題</h3>
+                    <div class="question-box">
+                      <strong>練習</strong>
+                      <p>6x+9 を因数分解しなさい。</p>
+                      <details class="answer-toggle">
+                        <summary>答えを表示</summary>
+                        <div class="answer"><b>答え：3(2x+3)</b></div>
+                      </details>
+                    </div>
+                  </section>
+                  <section class="lesson-section">
+                    <span class="section-kicker">Check</span>
+                    <h3>確認問題</h3>
+                    <details class="confirm-toggle">
+                      <summary>確認問題を開く</summary>
+                      <div class="confirm-panel">
+                        <ol class="confirm-list">
+                          <li>公式のどの部分を使ったか説明しなさい。</li>
+                          <li>符号が変わる場所を確認しなさい。</li>
+                          <li>途中式を一行残して解き直しなさい。</li>
+                        </ol>
+                      </div>
+                    </details>
+                  </section>
+                </div>
+              </article>
+
+              <article
+                class="lesson-panel"
+                data-lesson-panel="006"
+                id="lesson-006"
+              >
+                <div class="paper">
+                  <header class="lesson-title">
+                    <p class="eyebrow">Lesson 6</p>
+                    <h2>第6講　因数分解の考え方</h2>
+                    <p>
+                      この講義では、式を見やすく整理するための基本の形を確認します。
+                    </p>
+                  </header>
+                  <section class="lesson-section">
+                    <span class="section-kicker">Formula</span>
+                    <h3>公式・定義</h3>
+                    <div class="formula-box">
+                      x<sup>2</sup>+(a+b)x+ab=(x+a)(x+b)
+                    </div>
+                    <p>
+                      公式は、毎回同じ手順を繰り返さずに済むようにまとめた型です。どこに何を掛けているかを確認します。
+                    </p>
+                  </section>
+                  <section class="lesson-section">
+                    <span class="section-kicker">Practice</span>
+                    <h3>練習問題</h3>
+                    <div class="question-box">
+                      <strong>練習</strong>
+                      <p>x<sup>2</sup>+5x+6 を因数分解しなさい。</p>
+                      <details class="answer-toggle">
+                        <summary>答えを表示</summary>
+                        <div class="answer"><b>答え：(x+2)(x+3)</b></div>
+                      </details>
+                    </div>
+                  </section>
+                  <section class="lesson-section">
+                    <span class="section-kicker">Check</span>
+                    <h3>確認問題</h3>
+                    <details class="confirm-toggle">
+                      <summary>確認問題を開く</summary>
+                      <div class="confirm-panel">
+                        <ol class="confirm-list">
+                          <li>公式のどの部分を使ったか説明しなさい。</li>
+                          <li>符号が変わる場所を確認しなさい。</li>
+                          <li>途中式を一行残して解き直しなさい。</li>
+                        </ol>
+                      </div>
+                    </details>
+                  </section>
+                </div>
+              </article>
+            </section>
+            <section class="source-box">
+              <h2>参考文献・確認資料</h2>
+              <ul>
+                <li>高等学校数学Iの標準的な「数と式」範囲</li>
+                <li>中学校数学の文字式・展開・因数分解の既習事項</li>
+              </ul>
+            </section>
+            <nav class="chapter-nav">
+              <a href="index.html"
+                ><small>分野ページへ</small><strong>数学Iの目次</strong></a
+              ><a class="next" href="index.html"
+                ><small>次の章</small
+                ><strong>方程式と不等式（準備中）</strong></a
+              >
+            </nav>
+            <footer class="footer">教えてゼド先生</footer>
+          </div>
+        </main>
+      </div>
+    </div>
+    <script src="../../../090_assets/js/main.js"></script>
+    <script src="../../../090_assets/js/lesson-switcher.js"></script>
+  </body>
+</html>
